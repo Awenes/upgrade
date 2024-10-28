@@ -1,0 +1,115 @@
+.testimonials.wrap {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F9F8;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card img {
+    width: 50px;
+    height: auto;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating-img {
+    padding-top: 10px;
+}
+
+.rating-img img {
+    width: 50px;
+    height: 50px;
+}
+
+.rate {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.rate img {
+    height: 20px;
+    width: 100px;
+}
+
+.column-cta {
+    max-width: 210px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: static;
+}
+
+.column-cta button {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 30px;
+    width: 210px;
+    height: 50px;
+    position: relative;
+    border: 1px solid #00B512;
+}
+
+.column-cta img {
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+    position: absolute;
+}
+
+@media (max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card img {
+        width: 20px;
+    }
+    .rate img {
+        width: 100px;
+    }
+    .rating-img img {
+        height: 40px;
+        width: 40px;
+    }
+}

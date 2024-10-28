@@ -1,0 +1,265 @@
+.bottom-wrap {
+    width: 100%;
+    height: auto;
+}
+
+.holder {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.holder-top {
+    background-image: url(../../assets/footerbg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    color: white;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.left h2 {
+    margin-top: 80px;
+    font-size: xxx-large;
+}
+
+.left-cta {
+    max-width: 210px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: static;
+    gap: 20px;
+}
+
+.left-cta button {
+    color: white;
+    background-color: #00B512;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 30px;
+    width: 210px;
+    height: 50px;
+    position: relative;
+    border: 1px solid #00B512;
+}
+
+.left-cta img {
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+    position: absolute;
+}
+
+.holder-top .right {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    gap: 30px;
+}
+
+.box1 img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 .logos img {
+    width: 150px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.services ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials img {
+    width: 30px;
+}
+
+.box2 p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 800px) {
+    .holder-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+    .holder-top .right {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .holder-top .right img {
+        width: 300px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .box1 img {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box1 .logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%x;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box1 .logos img {
+        width: 120px;
+    }
+
+    .services {
+        display: flex;
+        justify-content: center;
+    }
+
+    .services ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .socials img {
+        width: 30px;
+    }
+
+    .box2 p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .box1 .logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box1 .logos img {
+        width: 120px;
+    }
+}

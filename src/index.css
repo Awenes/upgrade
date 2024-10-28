@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    left: 0;
+    top: 0;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: Grotesk;
+}
+
+h2 {
+    font-family: Grotesk;
+}
+
+h3 {
+    font-family: Grotesk;
+}
+
+p {
+    font-family: Poppins;
+}
+
+li {
+    font-family: Poppins;
+}

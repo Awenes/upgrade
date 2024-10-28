@@ -1,0 +1,257 @@
+.wrapper {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    background-image: url(../../assets/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+.banner {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.top {
+    width: 220px;
+    height: auto;
+}
+
+.banner-head {
+    font-size: x-large;
+}
+
+.banner-text {
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.cta {
+    max-width: 210px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: static;
+    gap: 20px;
+}
+
+.cta button {
+    color: white;
+    background-color: #00B512;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 30px;
+    width: 210px;
+    height: 50px;
+    position: relative;
+}
+
+.cta img {
+    height: 50px;
+    z-index: 100;
+    position: absolute;
+}
+
+.photo {
+    width: 50%;
+}
+
+.photo img {
+    width: 330px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.companies {
+    background-color: #04684C;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.companies img {
+    width: 100px;
+    height: 25px;
+}
+
+@media (max-width: 1024px) {
+        .banner-head {
+        font-size: large;
+    }
+        .wrap {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 868px) {
+    .wrap {
+        margin-bottom: 0px;
+    }
+
+    .banner {
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        width: 900px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .companies {
+        height: 60px;
+    }
+
+    .companies img {
+        width: 60px;
+        height: 25px;
+    }
+
+    .photo img {
+        width: 330px;
+        height: auto;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 820px) {
+    .banner {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 720px) {
+    .wrapper {
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrap {
+        background-image: url(../../assets/background.png);
+        background-size: 100% 100%;
+        background-repeat: repeat;
+        background-position: center;
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .welcome {
+        width: 370px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        color: white;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top {
+        width: 200px;
+        height: auto;
+    }
+
+    .banner-head {
+        font-size: large;
+    }
+
+    .banner-text {
+        font-size: 16px;
+        font-family: poppins;
+    }
+
+    .cta {
+        max-width: 170px;
+        height: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        position: static;
+        gap: 20px;
+    }
+
+    .cta button {
+        color: white;
+        background-color: #00B512;
+        padding: 10px;
+        padding-right: 40px;
+        border-radius: 30px;
+        width: 210px;
+        height: 50px;
+        position: relative;
+    }
+
+    .cta img {
+        height: 50px;
+        z-index: 100;
+        position: absolute;
+    }
+
+    .photo {
+        width: 370px;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .photo img {
+        width: 330px;
+        height: auto;
+    }
+
+    .companies {
+        background-color: #04684C;
+        height: auto;
+        width: 100vw;
+        display: flex;
+        justify-content: space-center;
+        align-items: center;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .companies img {
+        width: 100px;
+        height: 25px;
+    }
+}
